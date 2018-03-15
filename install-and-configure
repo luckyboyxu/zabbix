@@ -16,7 +16,7 @@ Zabbix Server：
 # MariaDB [(none)]> grant all privileges on zabbix.* to zabbix@localhost identified by 'zabbix';  #赋权限
 
 3、导入初始架构（Schema）和数据
-# cd /usr/share/doc/zabbix-server-mysql-3.4.0
+# cd /usr/share/doc/zabbix-server-mysql-3.4.7
 # zcat create.sql.gz | mysql -uzabbix zabbix
 
 4、在zabbix_server.conf中编辑数据库配置
